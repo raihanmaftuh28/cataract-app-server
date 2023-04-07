@@ -4,9 +4,6 @@ import tensorflow as tf
 from tensorflow.keras.models import *
 from PIL import Image
 import numpy as np
-import io
-import base64
-import cv2
 
 app = Flask(__name__)
 CORS(app, support_credentials=True)
